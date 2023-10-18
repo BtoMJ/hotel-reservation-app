@@ -1,0 +1,34 @@
+{
+    "hotels" : [
+        {
+            "id" : 1,
+            "name" : "Hotel Ritz",
+            "description" : "Hotel de lujo de 5 estrellas ubicado en una hermosa isla paradisiaca con un servicio digno de los mismos dioses",
+            "image" : "/img/hotel1.jpg"
+        },
+        {
+            "id" : 2,
+            "name" : "Hotel Paraiso",
+            "description" : "Está situado en Mineral del Chico, Hidalgo, el cuál te ofrece alojamiento, restaurante y actividades para toda la familia ",
+            "image" : "/img/hotel2.jpg"
+        },
+        {
+            "id" : 3,
+            "name" : "Hotel Montaña Mágica",
+            "description" : "Un espectacular hotel en medio de las montañas, perfecto para quitarse el estrés y pasar un días tranquilos",
+            "image" : "/img/hotel3.jpg"
+        },
+        {
+            "id" : 4,
+            "name" : "Hotel Cielo Azul",
+            "description" : "Hotel boutique situado en la costa, con impresionantes paisajes y fauna increíble",
+            "image" : "/img/hotel4.jpeg"
+        },
+        {
+            "id" : 5,
+            "name" : "Hotel Villa Romántica",
+            "description" : "Una villa pintoresca ideal para parejas que buscan relajarse y compartir tiempo juntos de calidad",
+            "image" : "/img/hotel5.jpg"
+        }
+    ]
+}
