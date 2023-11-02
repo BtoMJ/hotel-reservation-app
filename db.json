@@ -9,7 +9,7 @@
         {
             "id" : 2,
             "name" : "Hotel Paraiso",
-            "description" : "Está situado en Mineral del Chico, Hidalgo, el cuál te ofrece alojamiento, restaurante y actividades para toda la familia ",
+            "description" : "Situado en Mineral del Chico, Hidalgo, te ofrece alojamiento, restaurante y actividades para toda la familia ",
             "image" : "/img/hotel2.jpg"
         },
         {
@@ -21,7 +21,7 @@
         {
             "id" : 4,
             "name" : "Hotel Cielo Azul",
-            "description" : "Hotel boutique situado en la costa, con impresionantes paisajes y fauna increíble",
+            "description" : "Hotel boutique situado en la costa, con impresionantes paisajes y fauna increíble. Ambiente totalemnte familiar",
             "image" : "/img/hotel4.jpeg"
         },
         {
@@ -29,6 +29,36 @@
             "name" : "Hotel Villa Romántica",
             "description" : "Una villa pintoresca ideal para parejas que buscan relajarse y compartir tiempo juntos de calidad",
             "image" : "/img/hotel5.jpg"
+        },
+        {
+            "id" : 6,
+            "name" : "Hotel Radison",
+            "description" : "Una villa pintoresca ideal para parejas que buscan relajarse y compartir tiempo juntos de calidad",
+            "image" : "/img/hotel6.jpg"
+        },
+        {
+            "id" : 7,
+            "name" : "Hotel San Francisco",
+            "description" : "Una villa pintoresca ideal para parejas que buscan relajarse y compartir tiempo juntos de calidad",
+            "image" : "/img/hotel7.jpg"
+        },
+        {
+            "id" : 8,
+            "name" : "Hotel Madero",
+            "description" : "Una villa pintoresca ideal para parejas que buscan relajarse y compartir tiempo juntos de calidad",
+            "image" : "/img/hotel8.jpg"
+        },
+        {
+            "id" : 9,
+            "name" : "Hotel Royal",
+            "description" : "Una villa pintoresca ideal para parejas que buscan relajarse y compartir tiempo juntos de calidad",
+            "image" : "/img/hotel9.jpg"
+        },
+        {
+            "id" : 10,
+            "name" : "Hotel Riu",
+            "description" : "Una villa pintoresca ideal para parejas que buscan relajarse y compartir tiempo juntos de calidad",
+            "image" : "/img/hotel10.jpg"
         }
     ]
 }

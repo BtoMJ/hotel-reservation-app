@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 350px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background: linear-gradient(0deg, rgba(2,9,129,1) 0%, rgba(29,52,253,1) 97%); */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background: linear-gradient(360deg,rgba(0, 0, 0, 0.85)15%, rgba(0, 0, 0, 0.7)100%), url('../../public/img/hotelbg.jpg');
+}
+
+.header .nav{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .nav .options{
+    width: 60%;
+}
+
+.header .nav .sesion{
+    width: 40%;
+}
+
+.header .nav .sesion Button,
+.header .nav .options Button{
+    margin-right: 15px;
+    border-radius: 30px;
+    /* background-color: linear-gradient(0deg, rgba(251,170,5,1) 0%, rgba(253,239,29,1) 100%); */
+    color: #FFF;
+    padding: 10px 15px 5px 15px;
+}
+
+.header .nav .sesion{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.MuiPaper-root {
+    margin: 30px !important;
+    padding-bottom: 10px;
+}
+
+.search{
+    width: 40vw;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    padding: 2px 0px 2px 15px;
+    transition: .5s all ease;
+}
+
+.search:focus{
+    outline: 3px solid #fbd305;
+}
+
+.flags{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -25px;
+    left: 200px !important;
+    margin-bottom: -20px;
+    border-radius: 15px 0 0 15px;
+    /* background: linear-gradient(0deg, rgba(0,0,0,.1) 0%, rgba(255,255,255,1) 35%); */
+    background: linear-gradient(0deg, rgba(251,170,5,1) 0%, rgba(253,239,29,1) 100%);
+    box-shadow: 0 5px 10px 0px rgba(0,0,0,.2);
+}
+
+.flags2{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -25px;
+    left: 550px !important;
+    margin-bottom: -20px;
+    border-radius: 15px 0 0 15px;
+    /* background: linear-gradient(0deg, rgba(0,0,0,.1) 0%, rgba(255,255,255,1) 35%); */
+    background: linear-gradient(0deg, rgba(251,170,5,1) 0%, rgba(253,239,29,1) 100%);
+    box-shadow: 0 5px 10px 0px rgba(0,0,0,.2);
+}
+
+.hotel-detail-container{
+    width: 100v;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(360deg,rgba(0, 0, 0, 0.89)15%, rgba(0, 0, 0, 0.89)100%), url('../../public/img/hotelbg2.jpg');
+    /* background: linear-gradient(360deg,rgba(255, 255, 255, 0.93)15%, rgba(255, 255, 255, 0.93)100%), url('../../public/img/hotelbg2.jpg'); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    width: 100%;
+}
+
+.data-container{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* .data-container .item-data-detail{
+    border: thin dotted #F0F;
+} */
+
+.back-button{
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    background: linear-gradient(0deg, rgb(251, 5, 5) 0%, rgb(253, 37, 29) 100%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s all ease-in-out;
+}
+
+.back-button:hover{
+    cursor: pointer;
+    transform: translateY(-7px);
+    color: #454545;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,.2);
+}
+
+.stack-container .MuiCardMedia-root{
+    transition: .3s all ease;
+    /* border: thin dotted #f0f; */
+}
+
+.stack-container .MuiPaper-root:hover > .MuiCardMedia-root{
+    transform: scale(1.1);
+    /* filter: blur(15px); */
+}
+
+.liked{
+    color: rgb(197, 0, 0);
+}
+
+.footer{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    color: #a8a8a8;
+}
+
+.footer span{
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.loading-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(360deg,rgba(250, 250, 250, 0.9)15%, rgba(250, 250, 250, 0.9)100%), url('../../public/img/hotelbg2.jpg');
+}
